@@ -18,3 +18,20 @@
     padding-left: 14%;
     padding-top: 13%;
 }
+.hrBetweenText{
+    width: 20%;
+     margin-left: 0px;
+}
+.divbackMain{
+    margin-top: 10%;
+    padding-left: 14%;
+    padding-top: 10%; 
+    padding-bottom: 2%;
+    background-image:url("../img/mokasrat.jpg") ;
+    background-size: 100% 500px;
+}
+.imgdiv{
+    width: 33%;
+    height: 370px;
+    margin: 2px 0px;
+}
