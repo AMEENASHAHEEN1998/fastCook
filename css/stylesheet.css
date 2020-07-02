@@ -35,3 +35,11 @@
     height: 370px;
     margin: 2px 0px;
 }
+/*---------------- menu page----------------------*/
+
+.headerMenu{
+    background-image: url("../img/headerImg.jpg");
+    height: 230px;
+    background-size: 100% 230px;
+    
+}
