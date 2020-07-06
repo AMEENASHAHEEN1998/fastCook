@@ -8,17 +8,19 @@
         <meta name="keywords" content="Fast cooking restaurant">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        
+
 
 
     </head>
     <body>
-        <header class="header">
-            <nav class="navbar navbar-expand-lg " style="position: fixed;" >
+        <header class="header ">
+            <nav class="navbar navbar-expand-lg " id="navfixedScroll"  style="position: fixed;" >
                 <a class="navbar-brand" href="#" style="padding-left: 5%;"><span><b>FAST</b><b style="color: brown;">COOK</b></span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" >
                   <ul class="navbar-nav nav_header" >
                     <li class="nav-item active lipadding" >
                       <a class="nav-link " href="#">HOME <span class="sr-only">(current)</span></a>
@@ -30,52 +32,65 @@
                       <a class="nav-link " href="local.html">LOCAL</a>
                     </li>
                     <li class="nav-item lipadding">
-                      <a class="nav-link " href="#">CONTACT</a>
+                      <a class="nav-link " href="reservation.html">RESERVE </a>
                     </li>
+                    <li class="nav-item lipadding">
+                      <a class="nav-link " href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item lipadding">
+                      <button class="btnJS nav-link" ><a href="" >LOGIN</a></button>
+                    </li>
+                    <li class="nav-item lipadding">
+                      <a class="nav-link " href="" >SINGUP</a>
+                    </li>
+                  
                   </ul>
                 </div>
             </nav>
+          
 
             <div class="divheader">
                 <span><b style="color: darkkhaki;">MENU</b></span>
                 <p style="font-size: 50px; font-weight: lighter; color: cornsilk;">TABLE FOR TOW</p>
                 <span>
-                    <button style="margin-right: 4%; border: none; padding: 1%; ">RESERVE TABLE</button>
-                    <a href="#" style="color:cornsilk">BROWSE MENU</a>
+                    <button class="btnJS" style="margin-right: 4%; border: none; padding: 1%; "><a href="reservation.html" >RESERVE TABLE</a></button>
+                    <a href="menu.html" style="color:cornsilk">BROWSE MENU</a>
                 </span>
             </div>
-              
-        </header>
+          </header> 
+        
 
-        <div class="container" style="background-color:rgba(245, 245, 245, 0.904); padding: 150px 20px;">
-          <div class="row">
-            <div class="col-lg-6">
-              <img src="./img/chef.PNG">
-            </div>
-            <div class="col-lg-6">
-              <br><br>
-              <h6 style="font-weight: lighter;">HEAD CHEF</h6><br>
-              <h4><b >DONTE OWENS </b></h4><br>
-              <p>​Paragraph Text. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras, dapibus ac facilisis in, meet head chef - Donte Owens.</p>
+        <main>
+
+          <div class="container" style="background-color:rgba(245, 245, 245, 0.904); padding: 150px 20px;">
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="./img/chef.PNG">
+              </div>
+              <div class="col-lg-6">
+                <br><br>
+                <h6 style="font-weight: lighter;">HEAD CHEF</h6><br>
+                <h4><b >DONTE OWENS </b></h4><br>
+                <p>​Paragraph Text. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras, dapibus ac facilisis in, meet head chef - Donte Owens.</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div style="padding-top: 100px; text-align: center;">
-          <h4> <b >A BRILLIANT MENU </b></h4> <br>
-          <p>Paragraph Text. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-        </div>
+          <div style="padding-top: 100px; text-align: center;">
+            <h4> <b >A BRILLIANT MENU </b></h4> <br>
+            <p>Paragraph Text. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+          </div>
 
-        <div class="container"  >
-          <div class="row" style=" padding-top: 5%;">
-            <div class="col-lg-4 " >
-              <h6 style="font-weight: lighter;">COCKTAILS</h6><br>
-              <p>Ole’ Fashioned $19 <br>
-                bourbon or rye with a touch of <br> simple syrup</p><br> <hr class="hrBetweenText" >
-              <p> Margarita del Techo Single $13<br>
-                cabeza tequila, fidencio mezcal,<br> napoleon mandarin, lime</p><br> <hr class="hrBetweenText"> 
-              <p>La Paloma Single $10<br>
-                pueblo viejo tequila, grapefruit,<br> agave, lime, soda</p><br> <hr class="hrBetweenText">
+          <div class="container"  >
+            <div class="row" style=" padding-top: 5%;">
+              <div class="col-lg-4 " >
+                <h6 style="font-weight: lighter;">COCKTAILS</h6><br>
+                <p>Ole’ Fashioned $19 <br>
+                  bourbon or rye with a touch of <br> simple syrup</p><br> <hr class="hrBetweenText" >
+                <p> Margarita del Techo Single $13<br>
+                  cabeza tequila, fidencio mezcal,<br> napoleon mandarin, lime</p><br> <hr class="hrBetweenText"> 
+                <p>La Paloma Single $10<br>
+                  pueblo viejo tequila, grapefruit,<br> agave, lime, soda</p><br> <hr class="hrBetweenText">
               
             </div>
             <div class="col-lg-5" >
@@ -112,7 +127,7 @@
           <span><b style="color: darkkhaki;">RESERVE</b><br></span><br>
           <h4 style="color: thistle;"><b>SKIP THE LINE</b></h4><br>
           <p style="  color: cornsilk;">Paragraph Text. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p><br>
-          <button style="margin-right: 4%; border: none; padding: 1%; ">RESERVE TABLE</button><br><br>
+          <button class="btnJS" style="margin-right: 4%; border: none; padding: 1%; "><a href="reservation.html" >RESERVE TABLE</a></button><br><br>
           <p style="color: dimgray;">You will be redirected to opentable.com to reserve table.</p>
         </div>
         
@@ -137,17 +152,22 @@
           <h4> <b >CATER TO THE MULTITUDES </b></h4> <br>
           <div class="row">
             <div  class="col-lg-8"><p >Paragraph Text. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras, dapibus ac facilisis in, meet head chef - Donte Owens.</p></div>
-            <button class="col-lg-2" style="margin-left: 8%; background-color: #000; color: floralwhite; border: none; padding: 1%; ">LEARN MORE</button>
+            <button class="col-lg-2" style="margin-left: 8%; background-color:#000; color: floralwhite; border: none; padding: 1%; ">LEARN MORE</button>
           </div>
         </div>
 
-        <div class="container" style="height: 300px;">
-          <p  style="text-align: right; padding-top: 150px;">Ameena khamees Shaheen </p>
-        </div>
+        
 
-        <main>
+        
             
         </main>
-        <footer> </footer>
+        <footer>
+          <div class="container" style="height: 300px;">
+            <p  style="text-align: right; padding-top: 150px;">Ameena khamees Shaheen </p>
+          </div>
+        </footer>
+        <script src="js/jquery.js"></script>
+        <script src="js/jqueryPage.js"></script>
+        
     </body>
 </html>
