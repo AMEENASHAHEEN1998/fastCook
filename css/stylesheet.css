@@ -50,3 +50,19 @@
     background-size: 100% 230px;
     
 }
+
+/*------------------------------------*/
+#loginPage{
+    background-image: url("../img/backgroundLogin.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 660px;
+}
+#singup{
+    background-image: url("../img/backgroundLogin.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 660px;
+}
